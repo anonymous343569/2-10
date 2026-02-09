@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- Audio Persistence Logic ---
 function initAudio() {
-    const audio = new Audio('assets/audio/background-song.mpeg');
+    const audio = new Audio('assets/audio/background-song.mp3');
     audio.loop = true;
     audio.volume = 0.4;
 
